@@ -262,7 +262,7 @@ int main(int argc, char *argv[])
             ptr_plist[set_index(i, 2)], ptr_plist[set_index(i, 3)]);
 
         if (res) {
-                printf("Point %c:(%.2f %.2f) in %c%c%c:\n", 
+            printf("Point %c:(%.2f %.2f) in %c%c%c\n", 
                 ptr_plist[set_index(i, 3)]->name, 
                 ptr_plist[set_index(i, 3)]->x, 
                 ptr_plist[set_index(i, 3)]->y, 
@@ -270,7 +270,7 @@ int main(int argc, char *argv[])
                 ptr_plist[set_index(i, 1)]->name, 
                 ptr_plist[set_index(i, 2)]->name);
         } else {
-            printf("Point %c:(%.2f %.2f) outside %c%c%c:\n", 
+            printf("Point %c:(%.2f %.2f) outside %c%c%c\n", 
                 ptr_plist[set_index(i, 3)]->name, 
                 ptr_plist[set_index(i, 3)]->x, 
                 ptr_plist[set_index(i, 3)]->y, 
