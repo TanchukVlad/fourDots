@@ -14,7 +14,8 @@ Point position (inside or outside of the triangle) is recognized using this algo
     2. Creat 1 main triangle (with p1,p2,p3) and 3 triangles with the required point (p4).
     3. Calc all sides and areas of these triangles.
 
-        ![alt text](img/triangle.png "Triangles and areas")​
+![alt text](img/triangle.png "Triangles and areas")​
+    
     4. Compare sum of areas of 3 triangles with main triangle:
      
         - if sum will be equal main     -> required point inside triangle.
@@ -33,11 +34,11 @@ make clean all:
 ```
 Run the program:
 
-    1. Without file with points (points.txt):
+Without file with points (points.txt):
 ```
 ./fourDots
 ```
-    2. With file points.txt (Edit file points.txt):
+With file points.txt (Edit file points.txt):
 ```
 ./fourDots points.txt
 ```
