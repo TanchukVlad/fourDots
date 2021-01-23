@@ -16,10 +16,10 @@ Point position (inside or outside of the triangle) is recognized using this algo
 
 ![alt text](img/triangle.png "Triangles and areas")​
     
-    4. Compare sum of areas of 3 triangles with main triangle:
+    4. Compare the sum of areas of 3 triangles with main triangle:
      
-        - if sum will be equal main     -> required point inside triangle.
-        - if sum will not be equal main -> required point outside triangle.
+        - if sum is equal to main     -> required point is inside of triangle.
+        - if sum is not equal to main -> required point is outside of triangle.
     5. Repeat this algorithm for other combinations of points.
 
 
@@ -30,11 +30,11 @@ git clone https://github.com/TanchukVlad/fourDots.git
 ```
 Run makefile:
 ```
-make clean all:
+make clean all
 ```
 Run the program:
 
-Without file with points (points.txt):
+Without file (points.txt):
 ```
 ./fourDots
 ```
